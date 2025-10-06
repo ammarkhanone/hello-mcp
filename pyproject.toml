@@ -1,9 +1,12 @@
 [project]
-name = "hello-mcp"
+name = "mcp-server-template"
 version = "0.1.0"
-description = "Add your description here"
+description = "Python MCP Server template"
 readme = "README.md"
-requires-python = ">=3.12"
+requires-python = ">=3.13"
+authors = [{ name = "Alpic" }]
+keywords = ["mcp", "llm", "alpic", "python"]
 dependencies = [
-    "fastmcp>=2.12.4",
+    "black>=25.1.0",
+    "mcp",
 ]
